@@ -7,5 +7,6 @@
 </head>
 <body>
     <h1>Hello from Polyscope</h1>
+    <p>Polyscope is great</p>
 </body>
 </html>

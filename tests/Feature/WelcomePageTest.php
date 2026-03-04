@@ -5,5 +5,5 @@ it('displays the welcome page', function () {
 
     $response->assertStatus(200);
     $response->assertSee('Hello from Polyscope');
-    $response->assertDontSee('Polyscope is great');
+    $response->assertSee('Polyscope is great');
 });
