@@ -1,9 +1,9 @@
 <?php
 
-it('displays the welcome page with polyscope paragraph', function () {
+it('displays the welcome page', function () {
     $response = $this->get('/');
 
     $response->assertStatus(200);
     $response->assertSee('Hello from Polyscope');
-    $response->assertSee('Polyscope is great');
+    $response->assertDontSee('Polyscope is great');
 });
